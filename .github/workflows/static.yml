@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wedding Invitation - Vipul & Shubhangi</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffaf5;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #a0522d;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background-color: #a0522d;
+      margin: 20px auto;
+    }
+
+    .btn {
+      background: #a0522d;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #8b4513;
+    }
+  </style>
+</head>
+<body>
+
+  <section data-aos="fade-down">
+    <h1>Vipul & Shubhangi</h1>
+    <div class="divider"></div>
+    <p style="font-size: 1.2em;">are tying the knot</p>
+  </section>
+
+  <section data-aos="fade-up">
+    <p style="font-size: 1.4em; max-width: 600px; margin: 0 auto;">
+      “Two hearts, two souls, and one beautiful journey begins…<br>
+      With immense joy, we invite you to witness the union of Vipul & Shubhangi.<br>
+      Your presence will make our day truly special.”
+    </p>
+  </section>
+
+  <section data-aos="zoom-in">
+    <h2>🗓 29th November 2025</h2>
+    <p style="font-size: 1.2em;">📍 G Rest Resort, near Banthra, Kanpur Road</p>
+  </section>
+
+  <section data-aos="fade-right">
+    <h2>🎥 Video Invitation</h2>
+    <iframe width="300" height="180" src="https://www.youtube.com/embed/your-video-id" 
+      frameborder="0" allowfullscreen></iframe>
+    <!-- Replace 'your-video-id' with your YouTube or Drive video link -->
+  </section>
+
+  <section data-aos="fade-left">
+    <h2>🎉 Save the Date!</h2>
+    <a class="btn" href="https://calendar.google.com" target="_blank">Add to Calendar</a>
+    <!-- Replace with your calendar event link or RSVP form -->
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
